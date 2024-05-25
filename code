@@ -1,1 +1,7 @@
 pip install --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-host=files.pythonhosted.org --upgrade pip
+
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-U9lA7b/pip
+You are using pip version 8.1.2, however version 24.0 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
