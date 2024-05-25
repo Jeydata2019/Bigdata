@@ -11,3 +11,7 @@ Download the wheel file to a directory on your system.
 Open a terminal or command prompt and navigate to the directory where you downloaded the wheel file.
 
 Run the following command to install pip from the wheel file:
+
+
+pip install --no-index --find-links=. pip-<version>.whl
+
