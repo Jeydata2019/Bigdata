@@ -6,4 +6,4 @@ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
 -output /user/cloudera/output
 
 
-python mapreduce.py –r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar ratings.data
+python mapreduce.py –r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar input.txt
