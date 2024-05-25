@@ -2,6 +2,12 @@ pip install --trusted-host=pypi.python.org --trusted-host=pypi.org --trusted-hos
 
 
     ----------------------------------------
-Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-U9lA7b/pip
-You are using pip version 8.1.2, however version 24.0 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
+Go to the PyPI page for pip: pip on PyPI.
+
+Find the latest version of pip compatible with your Python version and operating system. The filename should end with .whl.
+
+Download the wheel file to a directory on your system.
+
+Open a terminal or command prompt and navigate to the directory where you downloaded the wheel file.
+
+Run the following command to install pip from the wheel file:
