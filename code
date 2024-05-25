@@ -15,3 +15,69 @@ Run the following command to install pip from the wheel file:
 
 pip install --no-index --find-links=. pip-<version>.whl
 
+
+[root@sandbox-hdp maria_dev]# pip install pathlib
+Collecting pathlib
+  Could not fetch URL https://pypi.python.org/simple/pathlib/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+  Could not find a version that satisfies the requirement pathlib (from versions: )
+No matching distribution found for pathlib
+[root@sandbox-hdp maria_dev]# pip install mrjob==0.7.4
+Collecting mrjob==0.7.4
+  Could not fetch URL https://pypi.python.org/simple/mrjob/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+  Could not find a version that satisfies the requirement mrjob==0.7.4 (from versions: )
+No matching distribution found for mrjob==0.7.4
+[root@sandbox-hdp maria_dev]# pip install PyYAML==5.4.1
+Collecting PyYAML==5.4.1
+  Could not fetch URL https://pypi.python.org/simple/pyyaml/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+  Could not find a version that satisfies the requirement PyYAML==5.4.1 (from versions: )
+No matching distribution found for PyYAML==5.4.1
+[root@sandbox-hdp maria_dev]# [root@sandbox-hdp maria_dev]# pip install pathlib
+Collecting pathlib
+  Could not fetch URL https://pypi.python.org/simple/pathlib/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+  Could not find a version that satisfies the requirement pathlib (from versions: )
+No matching distribution found for pathlib
+[root@sandbox-hdp maria_dev]# pip install mrjob==0.7.4
+Collecting mrjob==0.7.4
+  Could not fetch URL https://pypi.python.org/simple/mrjob/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+  Could not find a version that satisfies the requirement mrjob==0.7.4 (from versions: )
+No matching distribution found for mrjob==0.7.4
+[root@sandbox-hdp maria_dev]# pip install PyYAML==5.4.1
+Collecting PyYAML==5.4.1
+  Could not fetch URL https://pypi.python.org/simple/pyyaml/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+  Could not find a version that satisfies the requirement PyYAML==5.4.1 (from versions: )
+No matching distribution found for PyYAML==5.4.1
+[root@sandbox-hdp maria_dev]#
+bash: [root@sandbox-hdp: command not found
+[root@sandbox-hdp maria_dev]# Collecting pathlib
+bash: Collecting: command not found
+[root@sandbox-hdp maria_dev]#   Could not fetch URL https://pypi.python.org/simple/pathlib/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+bash: syntax error near unexpected token `('
+[root@sandbox-hdp maria_dev]#   Could not find a version that satisfies the requirement pathlib (from versions: )
+bash: syntax error near unexpected token `('
+[root@sandbox-hdp maria_dev]# No matching distribution found for pathlib
+bash: No: command not found
+[root@sandbox-hdp maria_dev]# [root@sandbox-hdp maria_dev]# pip install mrjob==0.7.4
+bash: [root@sandbox-hdp: command not found
+[root@sandbox-hdp maria_dev]# Collecting mrjob==0.7.4
+bash: Collecting: command not found
+[root@sandbox-hdp maria_dev]#   Could not fetch URL https://pypi.python.org/simple/mrjob/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+bash: syntax error near unexpected token `('
+[root@sandbox-hdp maria_dev]#   Could not find a version that satisfies the requirement mrjob==0.7.4 (from versions: )
+bash: syntax error near unexpected token `('
+[root@sandbox-hdp maria_dev]# No matching distribution found for mrjob==0.7.4
+bash: No: command not found
+[root@sandbox-hdp maria_dev]# [root@sandbox-hdp maria_dev]# pip install PyYAML==5.4.1
+bash: [root@sandbox-hdp: command not found
+[root@sandbox-hdp maria_dev]# Collecting PyYAML==5.4.1
+bash: Collecting: command not found
+[root@sandbox-hdp maria_dev]#   Could not fetch URL https://pypi.python.org/simple/pyyaml/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:579) - skipping
+bash: syntax error near unexpected token `('
+[root@sandbox-hdp maria_dev]#   Could not find a version that satisfies the requirement PyYAML==5.4.1 (from versions: )
+bash: syntax error near unexpected token `('
+[root@sandbox-hdp maria_dev]# No matching distribution found for PyYAML==5.4.1
+bash: No: command not found
+[root@sandbox-hdp maria_dev]# [root@sandbox-hdp maria_dev]#
+bash: [root@sandbox-hdp: command not found
+[root@sandbox-hdp maria_dev]#
+
+
